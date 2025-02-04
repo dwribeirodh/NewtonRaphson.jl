@@ -2,7 +2,7 @@ module NewtonRaphson
 
 using LinearAlgebra
 
-export
+export Newton, solve, find_global_min, eigvals
 
 include("NRStep.jl")
 
